@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-sketch.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-sketch)
 
-Installs Sketch, supporting tools & plugins on Mac OS X.
+Installs Sketch, supporting tools & plugins on Mac OS X. 
 
 
 ## Requirements
