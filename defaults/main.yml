@@ -8,9 +8,9 @@ sketch_apps:
 sketch_plugins_dir: "/Users/{{ ansible_env.USER }}/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
 
 sketch_plugin_repos:
-  - { repo: "https://github.com/ddwht/sketch-dynamic-button.git", dest: "sketch-dynamic-button" }
-  - { repo: "https://github.com/getflourish/Sketch-Style-Inventory.git", dest: "Sketch-Style-Inventory" }
-  - { repo: "https://github.com/tylergaw/day-player.git", dest: "day-player" }
-  - { repo: "https://github.com/timuric/Content-generator-sketch-plugin.git", dest: "Content-generator-sketch-plugin" }
-  - { repo: "https://github.com/bomberstudios/sketch-commands.git", dest: "sketch-commands" }
-  - { repo: "https://github.com/ScottSavarie/Clipboard-Fill.git", dest: "Clipboard-Fill" }
+  - https://github.com/ddwht/sketch-dynamic-button.git
+  - https://github.com/getflourish/Sketch-Style-Inventory.git
+  - https://github.com/tylergaw/day-player.git
+  - https://github.com/timuric/Content-generator-sketch-plugin.git
+  - https://github.com/bomberstudios/sketch-commands.git
+  - https://github.com/ScottSavarie/Clipboard-Fill.git
