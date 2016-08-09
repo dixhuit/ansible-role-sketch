@@ -2,8 +2,6 @@
 
 - name: Install Sketch & supporting tools.
   homebrew_cask: name="{{ item }}" state=present
-  environment:
-    HOMEBREW_CASK_OPTS: --appdir="{{ homebrew_cask_appdir }}"
   with_items: "{{ sketch_apps }}"
   notify: brew cask cleanup
 
