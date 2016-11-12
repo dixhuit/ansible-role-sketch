@@ -2,7 +2,8 @@
 
 sketch_apps:
   - sketch
-  - sketch-tool
+  # TODO: Install is currently playing up - investigate
+  # - sketch-tool
   - sketch-toolbox
 
 sketch_plugins_dir: "/Users/{{ ansible_env.USER }}/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
