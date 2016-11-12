@@ -18,7 +18,9 @@ install:
   - python --version
   # Update Homebrew
   - brew update
-  # Install Python, separate from version that ships with OS X
+  # Unlkink python that ships with macOS
+  - brew unlink python
+  # Install Python, separate from version that ships with macOS
   - brew install python
   #  Install Ansible
   - brew install ansible
