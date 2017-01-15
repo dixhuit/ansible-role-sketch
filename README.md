@@ -21,7 +21,7 @@ sketch_apps:
   - sketch-toolbox
 ```
 
-Which Homebrew Cask apps to install.
+Which which apps to install (via Homebrew Cask).
 
 ```
 sketch_plugins_dir: "/Users/{{ ansible_env.USER }}/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
@@ -42,7 +42,7 @@ sketch_plugin_repos:
 Sketch plugins to install.
 
 - `repo` should contain the absolute URL to the plugin's public Git repository.
-- `dest` will be used to name the subdirectory that the plugin will be cloned into.
+- `dest` will is used to name the subdirectory that the plugin will be cloned into.
 
 
 ## Dependencies
