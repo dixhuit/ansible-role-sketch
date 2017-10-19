@@ -14,7 +14,7 @@ Installs Sketch, supporting tools & plugins on macOS.
 
 All role default variables are listed below along with their respective default values.
 
-```
+```yaml
 sketch_apps:
   - sketch
   - sketch-tool
@@ -23,13 +23,13 @@ sketch_apps:
 
 Which which apps to install (via Homebrew Cask).
 
-```
+```yaml
 sketch_plugins_dir: "/Users/{{ ansible_env.USER }}/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
 ```
 
 Where Sketch plugins should be installed. The default value is the default location for the current available version of Sketch.
 
-```
+```yaml
 sketch_plugin_repos:
   - { repo: "https://github.com/ddwht/sketch-dynamic-button.git", dest: "sketch-dynamic-button" }
   - { repo: "https://github.com/getflourish/Sketch-Style-Inventory.git", dest: "Sketch-Style-Inventory" }
@@ -52,7 +52,7 @@ Sketch plugins to install.
 
 ## Example Playbook
 
-```
+```yaml
 - hosts: macbook
   connection: local
 
